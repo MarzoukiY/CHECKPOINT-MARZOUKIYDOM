@@ -1,0 +1,110 @@
+*{
+  padding: 0px;margin: 0px;
+}
+.shopping-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 2%;
+  margin: 50px 10%; 
+ 
+}
+
+.total-price-container {
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: fantasy;
+  }
+
+.total-price-container span {
+  font-size: 100px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2%;
+
+}
+
+.card {
+  margin: 2%;
+  border-radius: 10px;
+  
+}
+
+.product-image {
+  width: 100%;
+}
+
+.unit-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plus-btn,
+.minus-btn {
+  font-size: 30px;
+  margin: 15px;
+   color: rgb(255, 255, 255); 
+   cursor: pointer;
+}
+
+.plus-btn:hover {
+  color: rgb(0, 158, 40);
+}
+
+.minus-btn:hover {
+  color: rgb(187, 0, 0);
+}
+
+.qute {
+  font-size: 25px;color: #ffffff;font-family: fantasy;
+}
+
+.list-group-item i {
+  margin: 10px;
+}
+
+.fa-trash-alt {
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.fa-trash-alt:hover{
+  color: black;
+}
+
+.fa-heart {
+  font-size: 30px; color: #ffffff;padding: 30px;margin-top: 50px;cursor: pointer;
+}
+.fa-heart:hover{
+  color: crimson;
+}
+header{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5de7e273584c773ba874542a/1575479602578-R4WJTVQ5I5J64RX4JOVX/ke17ZwdGBToddI8pDm48kE1G8aDDySyXafgMqMi-3Wt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fIBAe0aRMxRrpn6J5i2IfAjEZwkdJGvTULFlkLSJhK3Nw/ck_painted_type_wallpaper_websize.jpg?format=2500w) ;padding:60px;
+}
+footer{
+  padding: 50px;text-align: center;color: #fdfdfd;background-image: url(https://images.squarespace-cdn.com/content/v1/5de7e273584c773ba874542a/1575479602578-R4WJTVQ5I5J64RX4JOVX/ke17ZwdGBToddI8pDm48kE1G8aDDySyXafgMqMi-3Wt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fIBAe0aRMxRrpn6J5i2IfAjEZwkdJGvTULFlkLSJhK3Nw/ck_painted_type_wallpaper_websize.jpg?format=2500w) ;
+}
+main{
+ background-image: url(https://www.mestissus.net/WebRoot/Orange/Shops/5d09bcc6-ca64-11e0-a9b3-000d609a287c/51E6/8DF2/8491/0B8F/7E11/0A0C/05E9/6871/Feutrine-bordeaux-tissurama-FT522_m.jpg);
+}
+.ck{
+  text-align: center;color:  rgb(126, 23, 23);font-size: 70px;text-shadow:0 10px 0 ivory ; font-family: serif;
+}
+.da{
+  color: #ffffff;
+}
+.prod1,.prod2{
+  color: #ffffff;font-family: fantasy;font-size: 20px;text-align: center;
+}
+.unit-price {
+  color: #ffffff;font-family: fantasy;font-size: 20px;text-align:end;
+}
+.uni {
+  color: #ffffff;font-family: fantasy;font-size: 20px;text-align:end;
+}
